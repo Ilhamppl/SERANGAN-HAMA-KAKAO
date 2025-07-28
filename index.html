@@ -85,31 +85,65 @@
     </section>
 
     <!-- Laporan -->
-    <section id="laporan" data-aos="fade-up">
-      <h2 class="text-2xl font-semibold text-green-700 mb-4">Laporkan Serangan Hama</h2>
-      <p class="mb-4">Isi formulir berikut untuk membantu penanganan cepat oleh penyuluh.</p>
-      <form class="bg-white rounded-lg shadow p-6 space-y-4">
-        <div>
-          <label class="block font-semibold">Nama Lengkap</label>
-          <input type="text" class="w-full border rounded px-3 py-2 mt-1" placeholder="Contoh: Budi Santoso" required />
-        </div>
-        <div>
-          <label class="block font-semibold">Lokasi Kebun</label>
-          <input type="text" class="w-full border rounded px-3 py-2 mt-1" placeholder="Kampung, Kecamatan, Kabupaten" required />
-        </div>
-        <div>
-          <label class="block font-semibold">Deskripsi Hama</label>
-          <textarea class="w-full border rounded px-3 py-2 mt-1" rows="4" placeholder="Contoh: Buah menguning dan mengering sebelum matang..." required></textarea>
-        </div>
-        <div>
-          <label class="block font-semibold">Unggah Foto (opsional)</label>
-          <input type="file" class="mt-2" />
-        </div>
-        <button type="submit" class="bg-green-700 text-white px-6 py-2 rounded hover:bg-green-800">
-          Kirim Laporan
-        </button>
-      </form>
-    </section>
+   <section id="laporan" data-aos="fade-up">
+  <h2 class="text-2xl font-semibold text-green-700 mb-4">Laporkan Serangan Hama</h2>
+  <p class="mb-4">Isi formulir berikut untuk membantu penanganan cepat oleh penyuluh.</p>
+
+  <form 
+    action="https://docs.google.com/forms/d/e/1FAIpQLSdPwNSfdPEzczjKflQLoF_4fOTqk8lPuTYdXJ5m3jC6TXkQeQ/formResponse" 
+    method="POST" 
+    target="_blank"
+    class="bg-white rounded-lg shadow p-6 space-y-4"
+  >
+    <div>
+      <label class="block font-semibold">Nama Lengkap</label>
+      <input 
+        name="entry.1143684435" 
+        type="text" 
+        class="w-full border rounded px-3 py-2 mt-1" 
+        placeholder="Contoh: Budi Santoso" 
+        required 
+      />
+    </div>
+    <div>
+      <label class="block font-semibold">Lokasi Kebun</label>
+      <input 
+        name="entry.1971812610" 
+        type="text" 
+        class="w-full border rounded px-3 py-2 mt-1" 
+        placeholder="Kampung, Kecamatan, Kabupaten" 
+        required 
+      />
+    </div>
+    <div>
+      <label class="block font-semibold">Deskripsi Hama</label>
+      <textarea 
+        name="entry.560825162" 
+        class="w-full border rounded px-3 py-2 mt-1" 
+        rows="4" 
+        placeholder="Contoh: Buah menguning dan mengering sebelum matang..." 
+        required
+      ></textarea>
+    </div>
+    <div>
+      <p class="text-sm text-gray-600 italic">Unggah foto hanya bisa dilakukan langsung lewat Google Form.</p>
+      <a 
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdPwNSfdPEzczjKflQLoF_4fOTqk8lPuTYdXJ5m3jC6TXkQeQ/viewform" 
+        target="_blank" 
+        class="text-green-700 underline text-sm"
+      >
+        Klik di sini untuk unggah foto
+      </a>
+    </div>
+    <button 
+      type="submit" 
+      class="bg-green-700 text-white px-6 py-2 rounded hover:bg-green-800"
+    >
+      Kirim Laporan
+    </button>
+  </form>
+</section>
+
 
     <!-- Kontak -->
     <section id="kontak" data-aos="fade-up">
