@@ -8,6 +8,8 @@
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body class="bg-green-50 text-gray-800">
+
+  <!-- Header -->
   <header class="bg-green-800 text-white shadow">
     <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
       <div class="flex items-center gap-3">
@@ -25,7 +27,11 @@
       </nav>
     </div>
   </header>
+
+  <!-- Konten -->
   <main class="max-w-6xl mx-auto px-4 py-10 space-y-14">
+
+    <!-- Pendahuluan -->
     <section id="pendahuluan" data-aos="fade-up">
       <h2 class="text-2xl font-semibold text-green-700 mb-4">Mengapa Penting Mengenal Hama Kakao?</h2>
       <p>
@@ -33,29 +39,113 @@
         Maka dari itu ayo kita kenal hama yang sering menyerang tanaman kakao serta mengendalikan hama secara efektif.
       </p>
     </section>
-    <section id="laporan" data-aos="fade-up">
-      <h2 class="text-2xl font-semibold text-green-700 mb-4">Laporkan Serangan Hama</h2>
-      <p class="mb-4">Isi formulir berikut untuk membantu penanganan cepat oleh penyuluh.</p>
-      <form id="laporanForm" class="bg-white rounded-lg shadow p-6 space-y-4">
-        <div>
-          <label class="block font-semibold">Nama Lengkap</label>
-          <input name="entry.1143684435" type="text" class="w-full border rounded px-3 py-2 mt-1" placeholder="Contoh: Budi Santoso" required />
+
+    <!-- Jenis Hama -->
+    <section id="jenis-hama" data-aos="fade-up">
+      <h2 class="text-2xl font-semibold text-green-700 mb-6">Jenis-Jenis Hama pada Kakao</h2>
+      <div class="grid gap-8 sm:grid-cols-2">
+
+        <!-- Hama 1 -->
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden" data-aos="zoom-in">
+          <img src="./hama1.jpg" alt="Buah kakao busuk akibat hama" class="w-full h-40 object-cover" />
+          <div class="p-4">
+            <h3 class="font-bold text-lg mb-2">1. Busuk Buah Kakao</h3>
+            <p>Buah kakao rusak oleh jamur atau hama, mengakibatkan biji membusuk dan panen gagal. Untuk mengatasi busuk buah kakao yang disebabkan oleh jamur Phytophthora palmivora, petani perlu melakukan sanitasi kebun dengan membuang dan membakar buah yang terinfeksi, memangkas cabang agar sirkulasi udara lancar, serta menyemprotkan fungisida berbahan aktif tembaga secara berkala. Pemupukan yang seimbang, terutama unsur Kalium dan Kalsium, juga membantu meningkatkan daya tahan tanaman terhadap serangan jamur.</p>
+          </div>
         </div>
-        <div>
-          <label class="block font-semibold">Lokasi Kebun</label>
-          <input name="entry.1971812610" type="text" class="w-full border rounded px-3 py-2 mt-1" placeholder="Kampung, Kecamatan, Kabupaten" required />
+
+        <!-- Hama 2 -->
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden" data-aos="zoom-in">
+          <img src="./hama2.jpg" alt="Kepik Helopeltis" class="w-full h-40 object-cover" />
+          <div class="p-4">
+            <h3 class="font-bold text-lg mb-2">2. Kepik Helopeltis spp.</h3>
+            <p>Serangan hama yang menyerap cairan dari buah muda kakao, menyebabkan bercak hitam. Hama kepik menyerang buah muda dan menyebabkan bintik hitam. Untuk menanggulanginya, petani dapat menanam tanaman pagar seperti jarak pagar sebagai tanaman perangkap, menjaga kebersihan kebun, serta melakukan penyemprotan insektisida sistemik seperti abamektin atau imidakloprid. Memelihara musuh alami seperti laba-laba dan semut hitam juga dapat membantu menekan populasi hama ini.</p>
+          </div>
         </div>
-        <div>
-          <label class="block font-semibold">Deskripsi Hama</label>
-          <textarea name="entry.560825162" class="w-full border rounded px-3 py-2 mt-1" rows="4" placeholder="Contoh: Buah menguning dan mengering sebelum matang..." required></textarea>
+
+        <!-- Hama 3 -->
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden" data-aos="zoom-in">
+          <img src="./hama3.jpg" alt="Buah kakao rusak digigit tikus" class="w-full h-40 object-cover" />
+          <div class="p-4">
+            <h3 class="font-bold text-lg mb-2">3. Tikus</h3>
+            <p>Tikus menggigit kulit dan biji kakao, menyebabkan kerugian produksi di kebun. Tikus sering merusak buah dan batang muda kakao. Upaya pengendalian dilakukan dengan menjaga kebersihan kebun dari semak atau rumput tinggi, memasang perangkap di jalur tikus, serta menggunakan rodentisida secara hati-hati. Selain itu, pemeliharaan burung hantu sebagai predator alami juga sangat efektif untuk mengurangi populasi tikus secara berkelanjutan.</p>
+          </div>
         </div>
-        <div>
-          <p class="text-sm text-gray-600 italic">Unggah foto hanya bisa dilakukan langsung lewat Google Form.</p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPwNSfdPEzczjKflQLoF_4fOTqk8lPuTYdXJ5m3jC6TXkQeQ/viewform" target="_blank" class="text-green-700 underline text-sm">Klik di sini untuk unggah foto</a>
+
+        <!-- Hama 4 -->
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden" data-aos="zoom-in">
+          <img src="./hama4.jpg" alt="Larva penggerek batang" class="w-full h-40 object-cover" />
+          <div class="p-4">
+            <h3 class="font-bold text-lg mb-2">4. Ulat Juring (Carmenta sp.)</h3>
+            <p>Larva menggerek batang tanaman kakao, menghambat penyaluran air dan nutrisi. Untuk mengendalikan ulat juring buah, petani perlu melakukan sanitasi rutin dengan memusnahkan buah yang terinfeksi, memangkas tajuk pohon untuk mengurangi kelembapan, serta memasang perangkap feromon guna mengganggu proses perkawinan serangga. Pada saat populasi tinggi, penggunaan insektisida selektif seperti emamektin benzoat bisa dilakukan dengan dosis yang sesuai.</p>
+          </div>
         </div>
-        <button type="submit" class="bg-green-700 text-white px-6 py-2 rounded hover:bg-green-800">Kirim Laporan</button>
-      </form>
+
+      </div>
     </section>
+
+    <!-- Laporan -->
+   <section id="laporan" data-aos="fade-up">
+  <h2 class="text-2xl font-semibold text-green-700 mb-4">Laporkan Serangan Hama</h2>
+  <p class="mb-4">Isi formulir berikut untuk membantu penanganan cepat oleh penyuluh.</p>
+
+  <form 
+    action="https://docs.google.com/forms/d/e/1FAIpQLSdPwNSfdPEzczjKflQLoF_4fOTqk8lPuTYdXJ5m3jC6TXkQeQ/formResponse" 
+    method="POST" 
+    target="_blank"
+    class="bg-white rounded-lg shadow p-6 space-y-4"
+  >
+    <div>
+      <label class="block font-semibold">Nama Lengkap</label>
+      <input 
+        name="entry.1143684435" 
+        type="text" 
+        class="w-full border rounded px-3 py-2 mt-1" 
+        placeholder="Contoh: Budi Santoso" 
+        required 
+      />
+    </div>
+    <div>
+      <label class="block font-semibold">Lokasi Kebun</label>
+      <input 
+        name="entry.1971812610" 
+        type="text" 
+        class="w-full border rounded px-3 py-2 mt-1" 
+        placeholder="Kampung, Kecamatan, Kabupaten" 
+        required 
+      />
+    </div>
+    <div>
+      <label class="block font-semibold">Deskripsi Hama</label>
+      <textarea 
+        name="entry.560825162" 
+        class="w-full border rounded px-3 py-2 mt-1" 
+        rows="4" 
+        placeholder="Contoh: Buah menguning dan mengering sebelum matang..." 
+        required
+      ></textarea>
+    </div>
+    <div>
+      <p class="text-sm text-gray-600 italic">Unggah foto hanya bisa dilakukan langsung lewat Google Form.</p>
+      <a 
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdPwNSfdPEzczjKflQLoF_4fOTqk8lPuTYdXJ5m3jC6TXkQeQ/viewform" 
+        target="_blank" 
+        class="text-green-700 underline text-sm"
+      >
+        Klik di sini untuk unggah foto
+      </a>
+    </div>
+    <button 
+      type="submit" 
+      class="bg-green-700 text-white px-6 py-2 rounded hover:bg-green-800"
+    >
+      Kirim Laporan
+    </button>
+  </form>
+</section>
+
+
+    <!-- Kontak -->
     <section id="kontak" data-aos="fade-up">
       <h2 class="text-2xl font-semibold text-green-700 mb-4">Kontak Penyuluh</h2>
       <div class="bg-green-100 p-6 rounded-lg space-y-2 text-sm">
@@ -65,35 +155,19 @@
         <p><strong>Email:</strong> ilhammuis5@gmail.com</p>
       </div>
     </section>
+
   </main>
+
+  <!-- Footer -->
   <footer class="bg-green-800 text-white text-sm py-6 mt-12">
     <div class="max-w-6xl mx-auto px-4 text-center">
       &copy; 2025 Dinas Perkebunan Kabupaten Berau • Edukasi Hama Kakao • Penyuluh: Ilham Muis
     </div>
   </footer>
+
+  <!-- AOS Animation -->
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-  <script>
-    AOS.init();
-    document.getElementById("laporanForm").addEventListener("submit", function (e) {
-      e.preventDefault();
-      const nama = document.querySelector('input[name="entry.1143684435"]').value;
-      const lokasi = document.querySelector('input[name="entry.1971812610"]').value;
-      const deskripsi = document.querySelector('textarea[name="entry.560825162"]').value;
-      const formData = new FormData();
-      formData.append("entry.1143684435", nama);
-      formData.append("entry.1971812610", lokasi);
-      formData.append("entry.560825162", deskripsi);
-      fetch("https://docs.google.com/forms/d/e/1FAIpQLSdPwNSfdPEzczjKflQLoF_4fOTqk8lPuTYdXJ5m3jC6TXkQeQ/formResponse", {
-        method: "POST",
-        mode: "no-cors",
-        body: formData
-      }).then(() => {
-        alert("Laporan berhasil dikirim!");
-        document.getElementById("laporanForm").reset();
-      }).catch(() => {
-        alert("Terjadi kesalahan saat mengirim laporan.");
-      });
-    });
-  </script>
+  <script>AOS.init();</script>
+
 </body>
 </html>
